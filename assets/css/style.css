@@ -1,0 +1,139 @@
+
+
+body {
+    background-image: url('../images/gravel.png');
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    position: absolute;
+    top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-bottom: solid 4px #cccccc;
+    width: 100%;
+    margin: 0px;
+}
+
+#name {
+    
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 200px;
+    padding: 30px;
+    margin-left: 12.5%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+nav ul {
+    float: right;
+    display: inline;   
+    margin-right: 12.5%;
+    padding-top: 6px;
+    
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+.body {
+    clear: both;
+    background-color: #ffffff;
+    border: 5px solid #dddddd;
+    margin-top: 130px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    width: 960px;
+    /*how to make this flexible?*/
+    position: relative;
+}
+
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bio-image {
+    float: left;
+    padding: 20px;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 25px;
+    padding-left: 30px;
+/*how to align h3 and form when form is set to auto?*/
+}
+
+hr {
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+/* why doesn't padding work for hr?  */   
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.text {
+    float: left;
+    padding: 20px;
+    padding-left: 20px;
+    /* padding on left not working */
+}
+
+.formform {
+    display: block;
+    text-align: center;
+}
+
+#form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 850px;
+    height: 20px;
+}
+
+#message {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 850px; 
+    height: 100px;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    height: 20px;
+    bottom: 0%;
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 8px solid #4aaaa5;
+}
