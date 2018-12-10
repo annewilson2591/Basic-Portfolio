@@ -67,7 +67,15 @@ a {
 
 #bio-image {
     float: left;
-    padding: 20px;
+    padding: 30px;
+}
+
+.text {
+    padding-top: 30px;
+    line-height: 1.6;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* padding on left not working */
 }
 
 h3 {
@@ -90,12 +98,7 @@ hr {
     padding-right: 20px; 
 }
 
-.text {
-    float: left;
-    padding: 20px;
-    padding-left: 20px;
-    /* padding on left not working */
-}
+
 
 .formform {
     display: block;
@@ -124,6 +127,35 @@ hr {
     margin-bottom: 10px;
     width: 850px; 
     height: 100px;
+}
+
+.column {
+    
+    float: left;    
+    padding: 10px;
+    position: relative;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+
+div {
+    overflow: auto;
+}
+
+.text-block {
+
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 100%;
+    
+    
 }
 
 footer {
