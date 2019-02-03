@@ -9,43 +9,48 @@
 
 <body>
 
-    <section class="header">
-        <div class="top">
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <h1 id="name">Anne Wilson</h1>
+<header id="masthead">
+        <div class="container">
+          <a href="index.html" id="logo">Your Name</a>
+          <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+          </nav>
         </div>
-    </section>
-
-    <div class="body">
-
-        <section id="content">
-            
-            <h3>Contact</h3>
+      </header>
     
-            <hr>
-
-            <div class="formform">
-                <form action="/action_page.php" id="form">Name <br>
-                    <input type="text" class="input"></br>Email <br>
-                    <input type="text" class="input"></br>Message <br>
-                    <input type="text" id="message"></br>
-                    <input type="Submit" value="Submit">
-            </form>
-        </div>
+      <div id="main-container" class="container">
+        <section class="main-section">
+          <h1>Contact</h1>
+    
+          <form id="contact-form">
+            <ul>
+              <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+              </li>
+              <li>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required="required"></textarea>
+              </li>
+            </ul>
+            <input type="submit">
+          </form>
+    
         </section>
-
-    </div>
-
-    <footer>
-            Copyright ©
-        </footer>
     
+      </div>
+    
+      <footer>
+        <div class="container">
+          Copyright &copy; 
+        </div>
+      </footer>
     </body>
     
     </html>
